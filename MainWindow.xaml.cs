@@ -25,7 +25,7 @@ namespace OpenStudioLauncher
             InitializeComponent();
         }
 
-        private void projectsButton_click(object sender, RoutedEventArgs e)
+        private void projectsButton_Click(object sender, RoutedEventArgs e)
         {
             //projectspage
         }
