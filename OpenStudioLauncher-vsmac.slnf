@@ -1,0 +1,17 @@
+{
+  "solution": {
+    "path": "OpenStudioLauncher.sln",
+    "projects": [
+		"OpenStudioLauncher.Shared\\OpenStudioLauncher.Shared.shproj",
+
+
+
+
+
+
+		"OpenStudioLauncher.Skia.Gtk\\OpenStudioLauncher.Skia.Gtk.csproj",
+
+		"OpenStudioLauncher.Skia.Linux.FrameBuffer\\OpenStudioLauncher.Skia.Linux.FrameBuffer.csproj",
+    ]
+  }
+}
