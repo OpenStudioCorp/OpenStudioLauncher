@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using OpenStudioLauncher.Pages;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -26,5 +27,26 @@ namespace OpenStudioLauncher
 		{
 			this.InitializeComponent();
 		}
+
+		private void btn_newClick(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_saveClick(object sender, RoutedEventArgs e)
+		{
+
+		}
+
+		private void btn_settingsClick(object sender, RoutedEventArgs e)
+		{
+			this.Frame.Navigate(typeof(SettingsPage));
+		}
+
+		private void btn_helpClick(object sender, RoutedEventArgs e)
+		{
+
+		}
+
 	}
 }

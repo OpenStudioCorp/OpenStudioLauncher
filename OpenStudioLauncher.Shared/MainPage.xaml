@@ -1,14 +1,33 @@
 ﻿<Page
-    x:Class="OpenStudioLauncher.MainPage"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:OpenStudioLauncher"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+  x:Class="OpenStudioLauncher.MainPage"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:local="using:OpenStudioLauncher"
+  xmlns:utu="using:Uno.Toolkit.UI"
+  xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+  xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+  mc:Ignorable="d"
+  Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-      <TextBlock Text="Hello, NoteBlockers!" Margin="20" FontSize="30" />
-    </Grid>
+  <StackPanel>
+    <CommandBar>
+      <AppBarButton Icon="Add" Label="New" />
+      <AppBarButton Icon="Save" Label="Save" />
+      <AppBarButton Icon="Setting" Label="Settings" Click="btn_settingsClick" />
+      <AppBarButton Icon="Repair" Label="Help" />
+
+      <CommandBar.Content>
+        <TextBlock Text="Open Studio Launcher" Margin="12,8" />
+      </CommandBar.Content>
+    </CommandBar>
+    <StackPanel>
+      <Grid>
+        <ListView>
+          <ScrollViewer>
+
+          </ScrollViewer>
+        </ListView>
+      </Grid>
+    </StackPanel>
+  </StackPanel>
 </Page>

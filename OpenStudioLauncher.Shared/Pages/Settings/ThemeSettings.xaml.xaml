@@ -1,0 +1,17 @@
+<Page
+    x:Class="OpenStudioLauncher.Pages.Settings.ThemeSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Playground.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:utu="using:Uno.Toolkit.UI"
+    xmlns:uen="using:Uno.Extensions.Navigation.UI"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <TextBlock Text="Theme Settings" Margin="12,8" />
+    </StackPanel>
+</Page>

@@ -9,6 +9,9 @@
             <ResourceDictionary.MergedDictionaries>
                 <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
                 <!-- Add resource dictionaries here -->
+                <ToolkitResources xmlns="using:Uno.Toolkit.UI" />
+                <ToolkitResources xmlns="using:Uno.Microsoft.Toolkit.Uwp.UI.Controls.Primitives" />
+                
             </ResourceDictionary.MergedDictionaries>
             <!-- Add resources here -->
         </ResourceDictionary>

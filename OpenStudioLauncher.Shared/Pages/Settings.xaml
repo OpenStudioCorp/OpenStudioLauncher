@@ -1,0 +1,40 @@
+<Page
+    x:Class="OpenStudioLauncher.Pages.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Playground.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:utu="using:Uno.Toolkit.UI"
+    xmlns:uen="using:Uno.Extensions.Navigation.UI"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel>
+        <CommandBar Grid.Row="1">
+            <AppBarButton Icon="Back" Label="Back" Click="btn_backClick" />
+            <CommandBar.Content>
+                <TextBlock Text="Settings" Margin="12,8" />
+            </CommandBar.Content>
+        </CommandBar>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <controls:DockPanel Grid.Column="0">
+                <StackPanel DockPanel.Dock="Left">
+                    <Button Width="200" Content="General Settings" Click="btn_generalSettingsClick" />
+                    <Button Width="200" Content="Theme Settings" Click="btn_themeSettingsClick" />
+                    <Button Width="200" Content="IDE Settings" Click="btn_ideSettingsClick" />
+                    <Button Width="200" Content="Project Settings" Click="btn_projectSettingsClick" />
+                </StackPanel>
+            </controls:DockPanel>
+
+            <Frame uen:Region.Attached="True" x:Name="NavigationFrame" Grid.Column="1" />
+
+        </Grid>
+    </StackPanel>
+</Page>

@@ -14,8 +14,8 @@
   <mp:PhoneIdentity PhoneProductId="F124B043-E8DE-4515-B724-FE9687BAF30B" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>OpenStudioLauncher</DisplayName>
-    <PublisherDisplayName>OpenStudioLauncher</PublisherDisplayName>
+    <DisplayName>Open Studio Launcher</DisplayName>
+    <PublisherDisplayName>Open Studio Launcher</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -32,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="OpenStudioLauncher.App">
       <uap:VisualElements
-        DisplayName="OpenStudioLauncher"
+        DisplayName="Open Studio Launcher"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
         Description="OpenStudioLauncher"
