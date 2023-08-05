@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="1000" Background="DarkGray">
     <Grid>
-        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,840,20">
+        <ListView d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,0,840,20" SelectionChanged="ListView_SelectionChanged">
             <ListView.View>
                 <GridView>
                     <GridViewColumn/>
@@ -16,12 +16,15 @@
         </ListView>
         <ScrollBar HorizontalAlignment="Left" Margin="160,0,0,0" VerticalAlignment="Center" Height="484"/>
         <ProgressBar HorizontalAlignment="Left" Height="20" Margin="0,464,0,0" VerticalAlignment="Top" Width="160"/>
-        <ToolBar Margin="177,0,0,460">
+        <ToolBar Margin="177,0,0,435">
             <Button Content="New" Click="projectsButton_Click"/>
             <Button Content="Save" Click="aboutbutton_click"/>
             <Button Content="settings" Click="Button_Click"/>
             <Button Content="help" Click="Button_Click_1"/>
+            <Button Content="Fetch and Print JSON" Click="FetchAndPrintJsonButton_Click" />
+
         </ToolBar>
+        <TextBox Name="consoleTextBox" HorizontalAlignment="Left" Margin="182,169,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="808" Height="305"/>
 
 
 
