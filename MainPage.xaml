@@ -6,7 +6,7 @@
 
     <StackLayout>
         <Label Text="Home Page" FontSize="Large" HorizontalOptions="Center" Margin="0,20,0,0" />
-        <Button Text="Last Game Played" Clicked="OnLastGameClicked" Margin="20" WidthRequest="250"/>
-        <Button Text="Settings" Clicked="OnSettingsClicked" Margin="20" TranslationX="0" WidthRequest="250"/>
+        <Button Text="Last Game Played" Clicked="OnLastGameClicked" Margin="20" />
+        <Button Text="Settings" Clicked="OnSettingsClicked" Margin="20" />
     </StackLayout>
 </ContentPage>

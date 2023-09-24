@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MauiApp2
-build_property.ProjectDir = D:\github2.0\New folder\OpenStudioLauncher\
+build_property.ProjectDir = D:\github2.0\OpenStudioLauncher\
 
-[D:/github2.0/New folder/OpenStudioLauncher/App.xaml]
+[D:/github2.0/OpenStudioLauncher/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/AppShell.xaml]
+[D:/github2.0/OpenStudioLauncher/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/LastGamePage.xaml]
+[D:/github2.0/OpenStudioLauncher/LastGamePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.LastGamePage.xaml
 build_metadata.AdditionalFiles.TargetPath = LastGamePage.xaml
 build_metadata.AdditionalFiles.RelativePath = LastGamePage.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/MainPage.xaml]
+[D:/github2.0/OpenStudioLauncher/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/Resources/Styles/Colors.xaml]
+[D:/github2.0/OpenStudioLauncher/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/Resources/Styles/Styles.xaml]
+[D:/github2.0/OpenStudioLauncher/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[D:/github2.0/New folder/OpenStudioLauncher/SettingsPage.xaml]
+[D:/github2.0/OpenStudioLauncher/SettingsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp2.SettingsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SettingsPage.xaml

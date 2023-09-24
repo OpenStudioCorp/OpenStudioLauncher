@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj": {}
+    "D:\\github2.0\\OpenStudioLauncher\\MauiApp2.csproj": {}
   },
   "projects": {
-    "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj": {
+    "D:\\github2.0\\OpenStudioLauncher\\MauiApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj",
+        "projectUniqueName": "D:\\github2.0\\OpenStudioLauncher\\MauiApp2.csproj",
         "projectName": "MauiApp2",
-        "projectPath": "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj",
+        "projectPath": "D:\\github2.0\\OpenStudioLauncher\\MauiApp2.csproj",
         "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-        "outputPath": "D:\\github2.0\\New folder\\OpenStudioLauncher\\obj\\",
+        "outputPath": "D:\\github2.0\\OpenStudioLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
