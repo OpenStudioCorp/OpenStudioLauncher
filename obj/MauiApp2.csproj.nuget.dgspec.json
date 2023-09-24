@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GAMER\\Documents\\GitHub\\MauiApp2\\MauiApp2.csproj": {}
+    "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GAMER\\Documents\\GitHub\\MauiApp2\\MauiApp2.csproj": {
+    "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GAMER\\Documents\\GitHub\\MauiApp2\\MauiApp2.csproj",
+        "projectUniqueName": "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj",
         "projectName": "MauiApp2",
-        "projectPath": "C:\\Users\\GAMER\\Documents\\GitHub\\MauiApp2\\MauiApp2.csproj",
+        "projectPath": "D:\\github2.0\\New folder\\OpenStudioLauncher\\MauiApp2.csproj",
         "packagesPath": "C:\\Users\\GAMER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GAMER\\Documents\\GitHub\\MauiApp2\\obj\\",
+        "outputPath": "D:\\github2.0\\New folder\\OpenStudioLauncher\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[6.0.553, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
@@ -173,6 +177,10 @@
               "version": "[6.0.553, )",
               "autoReferenced": true
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
               "version": "[6.0.1, )",
@@ -255,6 +263,10 @@
               "target": "Package",
               "version": "[6.0.553, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -339,6 +351,10 @@
               "target": "Package",
               "version": "[6.0.553, )",
               "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

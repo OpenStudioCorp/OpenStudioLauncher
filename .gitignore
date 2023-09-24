@@ -1,0 +1,23 @@
+# Build output
+/bin/
+/obj/
+
+# MAUI-specific files
+*.maui
+*.mauiproj
+*.sln.dotsettings
+*.sln.ide
+
+# NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# User-specific files
+*.userprefs
+*.usertasks
+*.user
+
+# Other
+*.DS_Store
+Thumbs.db
