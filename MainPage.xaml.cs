@@ -1,27 +1,24 @@
-﻿using Microsoft.Maui;
-using Microsoft.Maui.Controls;
-using Microsoft.Maui.Controls.Xaml;
+﻿namespace MauiApp2;
 
-namespace MauiApp2
+public partial class MainPage : ContentPage
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
-    {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+	int count = 0;
 
-        private async void OnLastGameClicked(object sender, EventArgs e)
-        {
-            // Navigate to the last game played page
-            await Navigation.PushAsync(new LastGamePage());
-        }
+	public MainPage()
+	{
+		InitializeComponent();
+	}
 
-        private async void OnSettingsClicked(object sender, EventArgs e)
-        {
-            // Navigate to the settings page
-            await Navigation.PushAsync(new SettingsPage());
-        }
-    }
+	private void OnCounterClicked(object sender, EventArgs e)
+	{
+		count++;
+
+		if (count == 1)
+			CounterBtn.Text = $"Clicked {count} time";
+		else
+			CounterBtn.Text = $"Clicked {count} times";
+
+		SemanticScreenReader.Announce(CounterBtn.Text);
+	}
 }
+

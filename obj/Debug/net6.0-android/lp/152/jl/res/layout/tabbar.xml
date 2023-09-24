@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <com.google.android.material.tabs.TabLayout android:id="@+id/sliding_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?attr/colorPrimary" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:tabIndicatorColor="@android:color/white" app:tabGravity="fill" app:tabMode="fixed" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />
 =======
 <com.google.android.material.tabs.TabLayout android:id="@+id/sliding_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?attr/colorPrimary" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:tabIndicatorColor="@android:color/white" app:tabGravity="fill" app:tabMode="fixed" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
 >>>>>>> parent of f9df411 (update OpenStudioLauncher)
+=======
+<com.google.android.material.tabs.TabLayout android:id="@+id/sliding_tabs" android:layout_width="match_parent" android:layout_height="wrap_content" android:background="?attr/colorPrimary" android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:tabIndicatorColor="@android:color/white" app:tabGravity="fill" app:tabMode="fixed" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" />
+>>>>>>> parent of aaed8f3 (added last game page and other things)
